@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f0f0f0"/>
+  
+  <!-- User Interface -->
+  <rect x="50" y="50" width="150" height="100" rx="10" fill="#4CAF50" />
+  <text x="125" y="100" font-family="Arial" font-size="14" fill="white" text-anchor="middle">User Interface</text>
+  
+  <!-- API Layer -->
+  <rect x="250" y="50" width="150" height="100" rx="10" fill="#2196F3" />
+  <text x="325" y="100" font-family="Arial" font-size="14" fill="white" text-anchor="middle">API Layer</text>
+  
+  <!-- Recommendation Engine -->
+  <rect x="450" y="50" width="150" height="100" rx="10" fill="#FFC107" />
+  <text x="525" y="100" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Recommendation Engine</text>
+  
+  <!-- Data Storage -->
+  <rect x="250" y="200" width="150" height="100" rx="10" fill="#9C27B0" />
+  <text x="325" y="250" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Data Storage</text>
+  
+  <!-- Machine Learning Models -->
+  <rect x="450" y="200" width="150" height="100" rx="10" fill="#FF5722" />
+  <text x="525" y="250" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Machine Learning Models</text>
+  
+  <!-- Spotify API -->
+  <rect x="650" y="50" width="150" height="100" rx="10" fill="#607D8B" />
+  <text x="725" y="100" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Spotify API</text>
+  
+  <!-- Arrows -->
+  <line x1="200" y1="100" x2="250" y2="100" stroke="black" stroke-width="2" />
+  <line x1="400" y1="100" x2="450" y2="100" stroke="black" stroke-width="2" />
+  <line x1="600" y1="100" x2="650" y2="100" stroke="black" stroke-width="2" />
+  <line x1="325" y1="150" x2="325" y2="200" stroke="black" stroke-width="2" />
+  <line x1="525" y1="150" x2="525" y2="200" stroke="black" stroke-width="2" />
+  
+  <!-- Arrow heads -->
+  <polygon points="250,95 250,105 260,100" fill="black" />
+  <polygon points="450,95 450,105 460,100" fill="black" />
+  <polygon points="650,95 650,105 660,100" fill="black" />
+  <polygon points="320,200 330,200 325,210" fill="black" />
+  <polygon points="520,200 530,200 525,210" fill="black" />
+</svg>

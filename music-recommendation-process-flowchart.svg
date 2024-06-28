@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f0f0f0"/>
+  
+  <!-- Start -->
+  <rect x="350" y="50" width="100" height="50" rx="25" fill="#4CAF50" />
+  <text x="400" y="80" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Start</text>
+  
+  <!-- User Input -->
+  <rect x="300" y="150" width="200" height="50" rx="10" fill="#2196F3" />
+  <text x="400" y="180" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Collect User Data</text>
+  
+  <!-- Process Data -->
+  <rect x="300" y="250" width="200" height="50" rx="10" fill="#FFC107" />
+  <text x="400" y="280" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Process and Analyze Data</text>
+  
+  <!-- Generate Recommendations -->
+  <rect x="300" y="350" width="200" height="50" rx="10" fill="#FF5722" />
+  <text x="400" y="380" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Generate Recommendations</text>
+  
+  <!-- Present Recommendations -->
+  <rect x="300" y="450" width="200" height="50" rx="10" fill="#9C27B0" />
+  <text x="400" y="480" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Present Recommendations</text>
+  
+  <!-- End -->
+  <rect x="350" y="550" width="100" height="50" rx="25" fill="#607D8B" />
+  <text x="400" y="580" font-family="Arial" font-size="14" fill="white" text-anchor="middle">End</text>
+  
+  <!-- Arrows -->
+  <line x1="400" y1="100" x2="400" y2="150" stroke="black" stroke-width="2" />
+  <line x1="400" y1="200" x2="400" y2="250" stroke="black" stroke-width="2" />
+  <line x1="400" y1="300" x2="400" y2="350" stroke="black" stroke-width="2" />
+  <line x1="400" y1="400" x2="400" y2="450" stroke="black" stroke-width="2" />
+  <line x1="400" y1="500" x2="400" y2="550" stroke="black" stroke-width="2" />
+  
+  <!-- Arrow heads -->
+  <polygon points="395,150 405,150 400,160" fill="black" />
+  <polygon points="395,250 405,250 400,260" fill="black" />
+  <polygon points="395,350 405,350 400,360" fill="black" />
+  <polygon points="395,450 405,450 400,460" fill="black" />
+  <polygon points="395,550 405,550 400,560" fill="black" />
+</svg>
